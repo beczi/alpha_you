@@ -1,10 +1,17 @@
+
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
   overflow-x: hidden;
   padding-top: 95px;
 }
-.container {
-  padding-top: 2em;
+
+h2 {
+  font-size: 35px;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+h5 {
+  margin-bottom: 1.6em;
 }
 header {
   display: flex;
@@ -31,18 +38,31 @@ header {
   max-width: 200px;
   align-self: center;
 }
-.page-title {
-
+.questions-list li {
+  margin-bottom: 0.8em;
 }
 main {
   color: #f1f1f7;
+
+}
+.color-bg {
   background-color: #0c2a46ba;
+}
+.dark-font {
+  color:#0c2a46ba;
 }
 .text-p {
   margin-top: 1em;
+  text-align: center;
 }
 .img {
   max-width: 100%;
+}
+.zero-left-padding {
+  padding-left: 0;
+}
+.zero-right-padding {
+  padding-right: 0;
 }
 .flex-text-box {
   justify-content: center;
@@ -59,6 +79,7 @@ main {
   text-transform: uppercase;
   font-weight: bold;
   transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+  margin-top: 1.3em;
 }
 
 .red-btn:hover:link, .red-btn:hover:visited {
@@ -95,10 +116,13 @@ main {
   width: 100%;
   display: block;
   position: relative;
+  color: #0c2a46ba
 }
 .bg05::after {
   content: "";
-  background: url(../img/bg_05.jpg) center center no-repeat;
+  background-image: url(../img/bg_05.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   opacity: 0.5;
   top: 0;
