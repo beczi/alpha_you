@@ -24,7 +24,7 @@ header {
   background-color: #fff;
 }
 .navbar-light .navbar-nav .nav-link {
-    color: #0c2a46ba;
+    color: #0c2a46;
 }
 .nav-item {
   border-bottom: 2px solid transparent;
@@ -46,10 +46,10 @@ main {
 
 }
 .color-bg {
-  background-color: #0c2a46ba;
+  background-color: #0c2a46;
 }
 .dark-font {
-  color:#0c2a46ba;
+  color:#0c2a46;
 }
 .text-p {
   margin-top: 1em;
@@ -116,7 +116,7 @@ main {
   width: 100%;
   display: block;
   position: relative;
-  color: #0c2a46ba
+  color: #0c2a46
 }
 .bg05::after {
   content: "";
